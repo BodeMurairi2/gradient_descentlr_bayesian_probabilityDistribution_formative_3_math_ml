@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
+import os
 
 # data
-
-df = pd.read_csv("GaltonFamilies.csv")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, "GaltonFamilies.csv")
+df = pd.read_csv(csv_path)
 
 fathers = df.drop_duplicates(subset="family")["father"].values.astype(float)
 children = df["childHeight"].values.astype(float)
