@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+*.env
+venv/
+env/
+*.pyc
+bayesian_probability_vectorized.ipynb
