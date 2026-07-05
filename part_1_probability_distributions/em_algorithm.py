@@ -178,7 +178,7 @@ print(f"  {'Iter':>4}  "
       f"{'Log-Likelihood':>16}")
 print("-" * W)
 
-for row in history[:3]:
+for row in history:
     print(f"  {row['it']:>4}  "
           f"{row['mu1']:>15.4f}  "
           f"{row['mu2']:>19.4f}  "
