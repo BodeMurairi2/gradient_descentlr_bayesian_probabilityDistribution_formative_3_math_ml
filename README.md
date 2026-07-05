@@ -6,6 +6,9 @@
 
 **No.**
 
+The heights of children and parents (fathers) overlap.
+Drawing a single line at the global mean would incorrectly classify some taller children as parents (fathers) and shorter parents as children.
+
 ---
 
 ### EM Algorithm — Full Optimization Tracking Table
